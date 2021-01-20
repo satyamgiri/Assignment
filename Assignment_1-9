@@ -1,0 +1,269 @@
+#Write a program to display Greetings in three lines.
+
+public class Hello{
+
+     public static void main(String []args){
+        System.out.println("Hello ! \nSatyam Giri");
+     }
+
+}
+
+#2.Write a program to display your Introduction in three lines.
+
+public class Intro{
+    public static void main(String []args){
+        System.out.println("I am from Nepal\nI graduated in 2020 Dec Fall session\nI am taking java classes at Vastika");
+    }
+}
+
+#3.Write a program to find sum and average of two numbers input by User (using Scanner class).
+
+
+import java.util.Scanner;
+
+ public class Calculation{
+    public static void main(String[] args)
+    {
+        double sum=0;
+        double average;
+        
+        Scanner input =new Scanner(System.in);
+
+        System.out.print("Input first number:");
+        double a =input.nextDouble();
+        
+        System.out.print("Input second number:");
+        double b =input.nextDouble();
+        sum = a +b;
+        average=(sum)/2;
+        
+  
+        
+        System.out.println("The sum of two number is:"+sum);
+        
+        System.out.println("The average value is:" +average);
+        
+    }
+}
+
+#4. Write a program to calculate Simple Interest input by the user. Simple Interest = P*T*R/100
+
+
+import java.util.Scanner;
+
+public class SimpleInterest{
+    public static void main(String[] args)
+    {
+        double interest =0;
+        double average;
+        Scanner input =new Scanner(System.in);
+        
+        System.out.print("Input Principle value:");
+        double p =input.nextDouble();
+        
+        System.out.print("Input time :");
+        double t =input.nextDouble();
+        
+         System.out.print("Input rate:");
+        double r =input.nextDouble();
+        
+        
+        interest =(p*t*r)/100;
+        
+        System.out.println("The interest is:"+interest);
+        
+        
+
+        }
+        }
+
+     #5.   Write a program to find the area of a circle, rectangle, and triangle.
+
+        public class Area{
+            public static void main(String[] args){
+
+            double length =5;
+            double radius =11;
+            double breadth =10;
+            double height =12;
+            double base =6;
+
+            double areaCircle=0;
+            double areaRectangle=0;
+            double areaTriangle=0;
+
+            areaCircle = (22/7)*(radius*radius);
+
+            areaRectangle= length*breadth;
+
+            areaTriangle = (1/2)*base*height;
+
+            
+
+            System.out.println("The area of circle is:"+areaCircle);
+
+            System.out.println("The area of rectangle is:"+areaRectangle);
+
+            System.out.println("The area of triangle is:"+areaTriangle);
+
+            }
+
+        }
+
+
+        #6. Write a program to find the perimeter of a circle, triangle, and rectangle.
+
+        public class Calculation{
+    public static void main(String [] args){
+
+
+
+double perimeterCircle, perimeterTriangle, perimeterRectangle = 0;
+
+double length=5;
+double breadth=6; 
+double height=8;
+double oneSide=4;
+double anotherSide=6;
+double thirdSide = 6;
+
+perimeterCircle = 4*length;
+
+perimeterTriangle = oneSide +anotherSide+ thirdSide;
+
+perimeterRectangle =4*length;
+
+System.out.println("The perimeter of circle is:"+perimeterCircle);
+
+System.out.println("The perimeter of triangle is:"+perimeterTriangle );
+
+
+System.out.println("The perimeter of rectangle is:"+perimeterRectangle );
+
+
+
+    }
+
+}
+
+#7. Write a program that reads the radius and length of a cylinder and computes volume.
+
+
+       import java.util.Scanner;
+
+public class Calculation{
+    public static void main(String[] args)
+    {
+        
+        double volume=0;
+
+        Scanner input =new Scanner(System.in);
+        System.out.print("Input radius of cylinder:");
+        double r =input.nextDouble();
+        
+        System.out.print("Input lenth of cylinder :");
+        double l =input.nextDouble();
+
+volume = (22/7)*(r*r)*l;
+
+         
+        
+        System.out.println("The volume of cylinder  is: "+volume);
+        }
+        }
+
+#8. Write a program that reads the radius and length of a cylinder and computes volume.
+
+import java.util.Scanner;
+
+public class Conversion{
+    public static void main(String[] args)
+    {
+        
+        double calculateFahrenheit, calculateCelsius =0;
+
+        Scanner input =new Scanner(System.in);
+        System.out.print("Input Fahrenheit value:");
+
+        double F =input.nextDouble();
+        
+        System.out.print("Input celsius value :");
+        double C =input.nextDouble();
+
+
+calculateFahrenheit = C*(9/5) + 32;
+calculateCelsius = (F-32) *.5556 ;
+
+System.out.println("The  Fahrebheit value is: "+calculateFahrenheit+ "F");
+
+System.out.println("The Celsius value is: "+calculateCelsius+ "C");
+
+
+    }
+}
+        
+        
+
+
+
+        
+
+      #9.  Write a program that converts pounds into kg. The program prompts the user to enter a number of pounds, converts it to kg and displays the result [1 pound is 0.454 kg].
+
+
+
+        import java.util.Scanner;
+
+public class conversion{
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);  
+
+        final double KILOGRAMS_PER_POUND = 0.454;   
+
+        
+        System.out.print("Enter a number in pounds: ");
+        double pounds = input.nextDouble();
+
+       
+        double kilograms = pounds * KILOGRAMS_PER_POUND;
+
+
+        System.out.println(pounds + " pounds is " + kilograms + " kilograms");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
